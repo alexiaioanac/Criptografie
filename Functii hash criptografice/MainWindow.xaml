@@ -1,0 +1,20 @@
+﻿<Window x:Class="Functii_hash_criptografice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hash Calculator" Height="400" Width="400">
+    <StackPanel Margin="20">
+        <TextBlock Text="Cale Fisier:"/>
+        <TextBox x:Name="InputPath" Margin="0,5"/>
+        <Button Content="Alege Fisier" Click="SelectFile_Click"/>
+
+        <GroupBox Header="Algoritm" Margin="0,20">
+            <StackPanel>
+                <RadioButton Content="MD5" IsChecked="True" Checked="Radio_Checked" Tag="0"/>
+                <RadioButton Content="SHA256" Checked="Radio_Checked" Tag="2"/>
+                <RadioButton Content="SHA3-512" Checked="Radio_Checked" Tag="7"/>
+            </StackPanel>
+        </GroupBox>
+
+        <Button Content="CALCULEAZA" Click="Calculate_Click" Height="40" Background="LightBlue"/>
+    </StackPanel>
+</Window>
