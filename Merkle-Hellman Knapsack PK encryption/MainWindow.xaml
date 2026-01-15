@@ -1,0 +1,21 @@
+﻿<Window x:Class="Merkle_Hellman_Knapsack_PK_encryption.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Merkle_Hellman_Knapsack_PK_encryption"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+        <TextBlock Text=" Merkle-Hellman" FontWeight="Bold" Margin="0,10"/>
+        <TextBlock Text="Introduceți textul:"/>
+        <TextBox x:Name="InputMerkle" Margin="0,5"/>
+
+        <Button Content="CRIPTEAZĂ (RUCSAC)" Click="MerkleClick" Background="LightGreen" Height="30"/>
+
+        <TextBlock Text="Rezultat:" Margin="0,10,0,0"/>
+            <TextBox x:Name="OutputMerkle" IsReadOnly="True" TextWrapping="Wrap" Height="60"/>
+        </StackPanel>
+    </Grid>
+</Window>
