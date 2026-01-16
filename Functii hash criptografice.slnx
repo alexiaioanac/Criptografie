@@ -3,4 +3,5 @@
   <Project Path="cifrul lui cezar/cifrul lui cezar.csproj" Id="b4033a8d-2e5a-4f87-be57-2da56de222f7" />
   <Project Path="Functii hash criptografice/Functii hash criptografice.csproj" />
   <Project Path="Merkle-Hellman Knapsack PK encryption/Merkle-Hellman Knapsack PK encryption.csproj" Id="1287cce0-d331-4ec7-958b-2e275b47ac8b" />
+  <Project Path="Substitutie monoalfabetica/Substitutie monoalfabetica.csproj" Id="97b0e31d-1161-4b87-a1ff-386563e3b8c3" />
 </Solution>
